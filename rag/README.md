@@ -644,3 +644,5 @@ This project was developed with the assistance of AI tools:
   - LangChain integration
   - Type hinting coverage, method signatures, code commenting, and README creation
 - **Microsoft Copilot**: Used for grammar/spell checking and writing suggestions in the final report
+
+All core functionality (excluding documentation, logging, licensing, and type checking) is original work stemming from my own intentions for the project. Initial drafts were refined and debugged with AI assistance and suggestions.

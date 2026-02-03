@@ -52,6 +52,31 @@ Apache Commons Text
 Apache Commons Text is a set of utility functions and reusable components for processing
     and manipulating text in a Java environment.
 
+---
+
+## 🤖 RAG Code Analysis Pipeline
+
+This repository includes a **RAG (Retrieval Augmented Generation) pipeline** for AI-powered code analysis, located in the [`rag/`](rag/) folder.
+
+### Features
+- **Semantic code search**: Ask natural language questions about the codebase
+- **Architecture analysis**: Detect dependency issues and code smells
+- **Refactoring suggestions**: Get AI-powered improvement recommendations
+
+### Quick Start
+```bash
+cd rag
+pip install -r requirements.txt
+ollama serve &              # Start local LLM
+python main.py --build      # Build vector index
+python main.py --query "How does StringSubstitutor work?"
+python main.py --analyze    # Run architecture analysis
+```
+
+📖 See the full documentation in [`rag/README.md`](rag/README.md)
+
+---
+
 Documentation
 -------------
 

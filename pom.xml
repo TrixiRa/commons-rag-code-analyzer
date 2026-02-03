@@ -157,6 +157,12 @@
               <inputExclude>src/site/resources/release-notes/RELEASE-NOTES-*.txt</inputExclude>
               <inputExclude>src/test/resources/org/apache/commons/text/stringEscapeUtilsTestData.txt</inputExclude>
               <inputExclude>src/test/resources/org/apache/commons/text/oss-fuzz/**</inputExclude>
+              <!-- RAG pipeline exclusions -->
+              <inputExclude>rag/README.md</inputExclude>
+              <inputExclude>rag/requirements.txt</inputExclude>
+              <inputExclude>rag/.pytest_cache/**</inputExclude>
+              <!-- Python virtual environment -->
+              <inputExclude>venv/**</inputExclude>
             </inputExcludes>
           </configuration>
         </plugin><!-- override skip property of parent pom -->
